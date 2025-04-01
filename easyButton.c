@@ -75,9 +75,9 @@ void buttonScan(Button *button)
         {
             if(button->val != button->valPre)
             {
-				button->state = FREE;
-				if(button->F[DOUBLE_CLICK] != NULL)
-				button->F[DOUBLE_CLICK]();
+		button->state = FREE;
+		if(button->F[DOUBLE_CLICK] != NULL)
+		button->F[DOUBLE_CLICK]();
             }
             break;
         }
